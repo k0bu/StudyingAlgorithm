@@ -7,8 +7,8 @@ int main()
 {
 	//MaximumProfit();
 	//InsertionSort();
-	BubbleSort();
-	//SelectionSort();
+	//BubbleSort();
+	SelectionSort();
 
 	return 0;
 }
