@@ -5,6 +5,7 @@
 #include <cmath>
 #include <vector>
 
+
 using namespace std;
 
 vector<int> intervalVector;
@@ -16,10 +17,11 @@ void Insertion(int* A, int N, int interval) {
 		int targetValue = A[i];
 		int j = i - interval;
 
-		while (A[j] > targetValue && j >= 0) {
+		while (A[j] > targetValue) {
 			swap(A[j + interval], A[j]);
 			j -= interval;
 			swapCount++;
+			if (j < 0) break;
 		}
 	}
 	return;
@@ -37,6 +39,7 @@ void Shell(int* A, int N) {
 
 
 void ShellSort() {
+
 
 	int* A = new int[1000000];
 	int N;

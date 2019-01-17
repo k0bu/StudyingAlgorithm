@@ -2,15 +2,24 @@
 //
 
 #include "pch.h"
+#include <time.h>
+#include <iostream>
 
 int main()
 {
+	std::cout << "clock():\n";
+	clock_t start = clock();
+
 	//MaximumProfit();
 	//InsertionSort();
 	//BubbleSort();
 	//SelectionSort();
 	//StableSort();
 	ShellSort();
+
+	clock_t end = clock();
+	std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec. \n";
+
 
 	return 0;
 }
