@@ -9,6 +9,8 @@
 #ifndef PCH_H
 #define PCH_H
 
+void MaximumProfit();
+
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
 #endif //PCH_H
