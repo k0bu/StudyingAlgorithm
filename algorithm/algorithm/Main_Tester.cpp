@@ -9,7 +9,8 @@ int main()
 	//InsertionSort();
 	//BubbleSort();
 	//SelectionSort();
-	StableSort();
+	//StableSort();
+	ShellSort();
 
 	return 0;
 }

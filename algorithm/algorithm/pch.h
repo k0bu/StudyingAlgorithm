@@ -14,6 +14,7 @@ void InsertionSort();
 void BubbleSort();
 void SelectionSort();
 void StableSort();
+void ShellSort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

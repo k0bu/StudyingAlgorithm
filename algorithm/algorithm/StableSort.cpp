@@ -52,7 +52,6 @@ bool isSortStable(struct Card* StableCards, struct Card* CheckingCards, int N) {
 void StableSort() {
 	Card C1[100], C2[100];
 	int N;
-	char ch;
 
 	cin >> N;
 	for (int i = 0; i < N; i++) {
