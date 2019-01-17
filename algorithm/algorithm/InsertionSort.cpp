@@ -1,8 +1,7 @@
 #include "pch.h"
 #include <iostream>
 
-using namespace std; //::cin,cout
-static const int MAX = 200000;
+using namespace std;
 
 void Trace(int* A, int N) {
 	for (int i = 0; i < N; i++)
@@ -14,7 +13,7 @@ void Trace(int* A, int N) {
 	cout << "\n";
 }
 
-void SortingAlgorithm( int* A, int N) {
+void SortingAlgorithm(int* A, int N) {
 	int j, i, v;
 	for (i = 1; i < N; i++)
 	{
@@ -31,8 +30,7 @@ void SortingAlgorithm( int* A, int N) {
 
 void InsertionSort()
 {
-	int N, i, j;
-	int A[100];
+	int A[100], N, i;
 
 	cin >> N;
 	for (i = 0; i < N; i++)

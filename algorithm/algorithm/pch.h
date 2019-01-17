@@ -11,6 +11,8 @@
 
 void MaximumProfit();
 void InsertionSort();
+void BubbleSort();
+void SelectionSort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
