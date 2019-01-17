@@ -10,6 +10,7 @@
 #define PCH_H
 
 void MaximumProfit();
+void InsertionSort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
