@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +165,8 @@
     </ClCompile>
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
+    <ClCompile Include="Queue.cpp" />
+    <ClCompile Include="QueueProblem.cpp" />
     <ClCompile Include="SelctionSort.cpp" />
     <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="StableSort.cpp" />
