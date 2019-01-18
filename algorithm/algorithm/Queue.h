@@ -47,6 +47,8 @@ public:
 		return head == tail;
 	}
 	
-	~Queue() {}
+	~Queue() {
+		delete[] queueArray;
+	}
 };
 
