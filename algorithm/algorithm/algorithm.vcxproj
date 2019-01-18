@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main_Tester.cpp" />
@@ -166,6 +167,8 @@
     <ClCompile Include="SelctionSort.cpp" />
     <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="StableSort.cpp" />
+    <ClCompile Include="Stack.cpp" />
+    <ClCompile Include="StackProblem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

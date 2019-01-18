@@ -15,6 +15,7 @@ void BubbleSort();
 void SelectionSort();
 void StableSort();
 void ShellSort();
+void StackProblem();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

@@ -15,7 +15,9 @@ int main()
 	//BubbleSort();
 	//SelectionSort();
 	//StableSort();
-	ShellSort();
+	//ShellSort();
+	StackProblem();
+
 
 	clock_t end = clock();
 	std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec. \n";
