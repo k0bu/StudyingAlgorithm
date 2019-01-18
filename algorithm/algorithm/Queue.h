@@ -16,9 +16,9 @@ public:
 	{
 		Initialize(queueSize);
 	}
-	void Initialize(int queueSize) {
+	void Initialize(int size) {
 		head = tail = 0;
-		queueSize = queueSize;
+		queueSize = size;
 		queueArray = new T[queueSize];
 	}
 	void Enqueue(T x) {

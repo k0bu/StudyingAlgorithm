@@ -30,7 +30,10 @@ void QueueProblem() {
 	while (!(queue.IsEmpty())) {
 		process = queue.Dequeue();
 
+
+		elapsedTime += (process.time > quantum) ? quantum : process.time;
 		process.time = (process.time > quantum) ? process.time - quantum : 0;
+
 		if (process.time > 0) {
 			queue.Enqueue(process);
 		}
