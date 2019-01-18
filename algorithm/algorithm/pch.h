@@ -18,6 +18,7 @@ void ShellSort();
 void StackProblem();
 void QueueProblem();
 void DoublyLinkedListProblem();
+void AreasDiagram();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

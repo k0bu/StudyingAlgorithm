@@ -18,8 +18,8 @@ int main()
 	//ShellSort();
 	//StackProblem();
 	//QueueProblem();
-	DoublyLinkedListProblem();
-
+	//DoublyLinkedListProblem();
+	AreasDiagram();
 
 	clock_t end = clock();
 	std::cout << "duration = " << (double)(end - start) / CLOCKS_PER_SEC << "sec. \n";
