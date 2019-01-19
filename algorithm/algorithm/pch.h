@@ -20,6 +20,7 @@ void QueueProblem();
 void DoublyLinkedListProblem();
 void AreasDiagram();
 void LinearSearch();
+void BinarySearch();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

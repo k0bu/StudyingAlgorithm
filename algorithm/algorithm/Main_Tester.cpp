@@ -20,7 +20,8 @@ int main()
 	//QueueProblem();
 	//DoublyLinkedListProblem();
 	//AreasDiagram();
-	LinearSearch();
+	//LinearSearch();
+	BinarySearch();
 
 
 	clock_t end = clock();
