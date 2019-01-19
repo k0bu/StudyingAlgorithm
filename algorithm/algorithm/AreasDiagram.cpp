@@ -44,7 +44,7 @@ void AreasDiagram() {
 	cout << sum << endl;
 	cout << ans.size();
 
-	for (int i = 0; i < ans.size(); i++) {
+	for (unsigned int i = 0; i < ans.size(); i++) {
 		cout << " ";
 		cout << ans[i];
 	}
