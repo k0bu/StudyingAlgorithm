@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="DoublyLinkedList.h" />
+    <ClInclude Include="HashDictionary.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
@@ -160,6 +161,7 @@
     <ClCompile Include="AreasDiagram.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
+    <ClCompile Include="Hash.cpp" />
     <ClCompile Include="Main_Tester.cpp" />
     <ClCompile Include="MaximumProfit.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

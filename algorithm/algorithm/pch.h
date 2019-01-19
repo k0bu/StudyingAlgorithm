@@ -21,6 +21,7 @@ void DoublyLinkedListProblem();
 void AreasDiagram();
 void LinearSearch();
 void BinarySearch();
+void Hash();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
