@@ -158,6 +158,7 @@
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Allocation.cpp" />
     <ClCompile Include="AreasDiagram.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />

@@ -22,6 +22,7 @@ void AreasDiagram();
 void LinearSearch();
 void BinarySearch();
 void Hash();
+void Allocation();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
