@@ -4,7 +4,7 @@
 
 int BinarySearchArray(int *A, int arraySize, int key) {
 	int left = 0;
-	int right = arraySize - 1;
+	int right = arraySize;
 	int mid;
 
 	while (left < right) {
@@ -23,7 +23,7 @@ void BinarySearch() {
 	int arraySize, *A, searchKeysSize, key, foundSum = 0;
 
 	scanf_s("%d", &arraySize);
-	A = new int[arraySize];
+	A = new int[arraySize + 1];
 	for (int i = 0; i < arraySize; i++) {
 		scanf_s("%d", &A[i]);
 	}
