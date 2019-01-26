@@ -23,6 +23,7 @@ void LinearSearch();
 void BinarySearch();
 void Hash();
 void Allocation();
+void ExhaustiveSearch();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

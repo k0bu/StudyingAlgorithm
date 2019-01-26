@@ -162,6 +162,7 @@
     <ClCompile Include="AreasDiagram.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
+    <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="Hash.cpp" />
     <ClCompile Include="Main_Tester.cpp" />
     <ClCompile Include="MaximumProfit.cpp">
