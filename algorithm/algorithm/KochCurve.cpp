@@ -21,6 +21,7 @@ void Koch(int n, Position left, Position right) {
 	secondThird.y = (thirdThird.x - firstThird.x) * sin(th) + (thirdThird.y - firstThird.y) * cos(th) + firstThird.y;
 
 	Koch(n - 1, left, firstThird);
+
 	printf("%.8f %.8f\n", firstThird.x, firstThird.y);
 
 	Koch(n - 1, firstThird, secondThird);
