@@ -164,6 +164,7 @@
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="Hash.cpp" />
+    <ClCompile Include="KochCurve.cpp" />
     <ClCompile Include="Main_Tester.cpp" />
     <ClCompile Include="MaximumProfit.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

@@ -24,6 +24,7 @@ void BinarySearch();
 void Hash();
 void Allocation();
 void ExhaustiveSearch();
+void KochCurve();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
