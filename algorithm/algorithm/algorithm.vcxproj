@@ -175,6 +175,7 @@
     <ClCompile Include="InsertionSort.cpp" />
     <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="MergeSort.cpp" />
+    <ClCompile Include="PartitionSort.cpp" />
     <ClCompile Include="Queue.cpp" />
     <ClCompile Include="QueueProblem.cpp" />
     <ClCompile Include="SelctionSort.cpp" />

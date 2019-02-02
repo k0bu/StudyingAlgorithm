@@ -26,6 +26,7 @@ void Allocation();
 void ExhaustiveSearch();
 void KochCurve();
 void MergeSort();
+void PartitionSort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
