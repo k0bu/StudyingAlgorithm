@@ -27,7 +27,8 @@ int main()
 	//ExhaustiveSearch();
 	//KochCurve();
 	//MergeSort();
-	PartitionSort();
+	//PartitionSort();
+	QuickSort();
 
 
 
