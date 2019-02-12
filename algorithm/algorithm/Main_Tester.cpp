@@ -28,7 +28,8 @@ int main()
 	//KochCurve();
 	//MergeSort();
 	//PartitionSort();
-	QuickSort();
+	//QuickSort();
+	CountingSort();
 
 
 

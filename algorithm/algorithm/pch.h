@@ -28,6 +28,7 @@ void KochCurve();
 void MergeSort();
 void PartitionSort();
 void QuickSort();
+void CountingSort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
