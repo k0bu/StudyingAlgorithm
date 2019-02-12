@@ -30,6 +30,7 @@ void PartitionSort();
 void QuickSort();
 void CountingSort();
 void STLsort();
+void NumberOfInversion();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

@@ -30,7 +30,8 @@ int main()
 	//PartitionSort();
 	//QuickSort();
 	//CountingSort();
-	STLsort();
+	//STLsort();
+	NumberOfInversion();
 
 
 

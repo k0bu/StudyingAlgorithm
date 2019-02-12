@@ -12,9 +12,11 @@ struct Card {
 	int value;
 };
 
-Card L[MAX / 2 + 2], R[MAX / 2 + 2];
+
 
 void Merge(Card *arr, int left, int mid, int right) {
+	Card L[MAX / 2 + 2], R[MAX / 2 + 2];
+
 	int n1 = mid - left;
 	int n2 = right - mid;
 
