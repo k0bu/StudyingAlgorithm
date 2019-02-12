@@ -29,7 +29,8 @@ int main()
 	//MergeSort();
 	//PartitionSort();
 	//QuickSort();
-	CountingSort();
+	//CountingSort();
+	STLsort();
 
 
 

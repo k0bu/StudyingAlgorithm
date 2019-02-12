@@ -29,6 +29,7 @@ void MergeSort();
 void PartitionSort();
 void QuickSort();
 void CountingSort();
+void STLsort();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

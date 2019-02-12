@@ -187,6 +187,7 @@
     <ClCompile Include="StableSort.cpp" />
     <ClCompile Include="Stack.cpp" />
     <ClCompile Include="StackProblem.cpp" />
+    <ClCompile Include="STLsort.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
