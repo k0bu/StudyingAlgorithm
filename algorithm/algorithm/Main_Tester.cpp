@@ -31,7 +31,8 @@ int main()
 	//QuickSort();
 	//CountingSort();
 	//STLsort();
-	NumberOfInversion();
+	//NumberOfInversion();
+	RootedTree();
 
 
 

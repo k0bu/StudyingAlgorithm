@@ -31,6 +31,7 @@ void QuickSort();
 void CountingSort();
 void STLsort();
 void NumberOfInversion();
+void RootedTree();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 
