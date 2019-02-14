@@ -32,6 +32,7 @@ void CountingSort();
 void STLsort();
 void NumberOfInversion();
 void RootedTree();
+void BinaryTree();
 
 // TODO: ここでプリコンパイルするヘッダーを追加します
 

@@ -32,7 +32,8 @@ int main()
 	//CountingSort();
 	//STLsort();
 	//NumberOfInversion();
-	RootedTree();
+	//RootedTree();
+	BinaryTree();
 
 
 

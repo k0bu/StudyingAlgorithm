@@ -161,6 +161,7 @@
     <ClCompile Include="Allocation.cpp" />
     <ClCompile Include="AreasDiagram.cpp" />
     <ClCompile Include="BinarySearch.cpp" />
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="CountingSort.cpp" />
     <ClCompile Include="DoublyLinkedList.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
