@@ -8,45 +8,57 @@ using namespace std;
 #define NIL -1
 
 struct Node {
-	int parent, left, right;
+	int parent, childLeft, childAdjacent;
 };
 
 Node *rootedTreeArray;
 int *depthArray;
 
-void Print (int id) {
-	printf("node %d: ",id);
+void PrintNodeInformation (int id) {
+	printf ("node %d: ", id);
 	printf ("parent = %d, ", rootedTreeArray[id].parent);
-	printf("depth = %d, ", depthArray[id]);
+	printf ("depth = %d, ", depthArray[id]);
+}
 
-	if (rootedTreeArray[id].parent == NIL) {
-		printf("root, ");
+void PrintNodeType (Node node) {
+	if (node.parent == NIL) {
+		printf ("root, ");
 	}
-	else if (rootedTreeArray[id].left == NIL) {
-		printf("leaf, ");
+	else if (node.childLeft == NIL) {
+		printf ("leaf, ");
 	}
 	else {
-		printf("internal node, ");
+		printf ("internal node, ");
+	}
+}
+
+void PrintChildNodes (int id) {
+	printf ("[");
+
+	for (int i = 0, c = rootedTreeArray[id].childLeft; c != NIL; i++, c = rootedTreeArray[c].childAdjacent) {
+		if (i) printf (", ");
+		printf ("%d", c);
 	}
 
-	printf("[");
+	printf ("]\n");
+}
 
-	for (int i = 0, c = rootedTreeArray[id].left; c != NIL; i++, c = rootedTreeArray[c].right) {
-		if(i) printf(", ");
-		printf("%d", c);
-	}
+void Print (int id) {
+	PrintNodeInformation(id);
 
-	printf("]\n");
+	PrintNodeType(rootedTreeArray[id]);
+
+	PrintChildNodes(id);
 
 }
 
 void Recursive (int id, int parentDepth) {
 	depthArray[id] = parentDepth;
-	if (rootedTreeArray[id].right != NIL) {
-		Recursive(rootedTreeArray[id].right, parentDepth);
+	if (rootedTreeArray[id].childAdjacent != NIL) {
+		Recursive(rootedTreeArray[id].childAdjacent, parentDepth);
 	}
-	if (rootedTreeArray[id].left != NIL) {
-		Recursive(rootedTreeArray[id].left, parentDepth + 1);
+	if (rootedTreeArray[id].childLeft != NIL) {
+		Recursive(rootedTreeArray[id].childLeft, parentDepth + 1);
 	}
 }
 
@@ -55,7 +67,7 @@ void Initializing (int n) {
 	depthArray = new int[n];
 
 	for (int i = 0; i < n; i++) {
-		rootedTreeArray[i].parent = rootedTreeArray[i].left = rootedTreeArray[i].right = NIL;
+		rootedTreeArray[i].parent = rootedTreeArray[i].childLeft = rootedTreeArray[i].childAdjacent = NIL;
 	}
 }
 
@@ -69,10 +81,10 @@ void Scanning (int n) {
 			scanf_s("%d", &child);
 
 			if (j == 0) {
-				rootedTreeArray[id].left = child;
+				rootedTreeArray[id].childLeft = child;
 			}
 			else {
-				rootedTreeArray[left].right = child;
+				rootedTreeArray[left].childAdjacent = child;
 			}
 
 			left = child;
